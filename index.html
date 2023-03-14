@@ -19,6 +19,19 @@
 			font-size: 36px;
 			margin: 0;
 			padding: 0;
+			text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #007ACC, 0 0 70px #007ACC, 0 0 80px #007ACC, 0 0 100px #007ACC, 0 0 150px #007ACC;
+			animation: glowing 2s infinite;
+		}
+		@keyframes glowing {
+			0% {
+				text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #007ACC, 0 0 70px #007ACC, 0 0 80px #007ACC, 0 0 100px #007ACC, 0 0 150px #007ACC;
+			}
+			50% {
+				text-shadow: none;
+			}
+			100% {
+				text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #007ACC, 0 0 70px #007ACC, 0 0 80px #007ACC, 0 0 100px #007ACC, 0 0 150px #007ACC;
+			}
 		}
 		h2 {
 			font-size: 24px;
