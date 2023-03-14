@@ -5,12 +5,17 @@
 	<title>Cover Letter</title>
 	<style>
 		body {
+            background-image: url('https://gifimage.net/wp-content/uploads/2018/10/black-and-white-gif-background-8.gif');
+			background-size: cover;
+			background-position: center center;
+			background-attachment: fixed;
+		
 			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
+			margin: 10;
+			padding: 20;
 		}
 		header {
-			background-color: #007ACC;
+			background-color: #2fa8bd;
 			color: #fff;
 			padding: 20px;
 			text-align: center;
@@ -19,10 +24,19 @@
 			font-size: 36px;
 			margin: 0;
 			padding: 0;
-			text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #007ACC, 0 0 70px #007ACC, 0 0 80px #007ACC, 0 0 100px #007ACC, 0 0 150px #007ACC;
+        	}
+        
+		h2 {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #007ACC, 0 0 70px #007ACC, 0 0 80px #007ACC, 0 0 100px #007ACC, 0 0 150px #007ACC;
 			animation: glowing 2s infinite;
+            text-align: center;
+            color: #fff;
+            font-family: 'Times New Roman', Times, serif;
+			font-size: 30px;
+			margin-top: 40px;
+			margin-bottom: 20px;
 		}
-		@keyframes glowing {
+        @keyframes glowing {
 			0% {
 				text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #007ACC, 0 0 70px #007ACC, 0 0 80px #007ACC, 0 0 100px #007ACC, 0 0 150px #007ACC;
 			}
@@ -33,17 +47,24 @@
 				text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #007ACC, 0 0 70px #007ACC, 0 0 80px #007ACC, 0 0 100px #007ACC, 0 0 150px #007ACC;
 			}
 		}
-		h2 {
-			font-size: 24px;
-			margin-top: 40px;
-			margin-bottom: 20px;
+        .box {
+			width: 400px;
+			height: 500px;
+			padding: 40px;
+			border: 1px solid rgb(255, 255, 255);
+			box-sizing: border-box;
+            color: #fff;
+            font-family: 'Times New Roman', Times, serif;
+
 		}
-		p {
-			font-size: 16px;
-			line-height: 1.5;
-			margin: 0;
-			padding: 0;
+		.box1 {
+			display: inline-block;
+			vertical-align: center;
 		}
+		.box2 {
+			float:right;
+		}
+		
 	</style>
 </head>
 <body>
@@ -51,13 +72,24 @@
 		<h1>Cover Letter</h1>
 	</header>
 	<main>
-		<h2>Dear Hiring Manager,</h2>
-		<p>I am excited to apply for the position of Software Developer at XYZ Company. With over 10 years of experience in software development, I believe that my skills and expertise align well with the requirements of this role.</p>
-		<p>Throughout my career, I have gained a deep understanding of programming languages and software development methodologies, and have successfully implemented complex projects from start to finish. My skills in team management, project coordination, and stakeholder engagement have helped me to successfully deliver projects on time and on budget, while ensuring a high level of customer satisfaction.</p>
-		<p>At XYZ Company, I look forward to applying my skills in developing innovative and cutting-edge software solutions, while collaborating with a team of talented developers and designers. My ability to work well in a team environment, combined with my focus on delivering high-quality code, makes me a strong candidate for this position.</p>
-		<p>Thank you for considering my application. I look forward to discussing my qualifications further.</p>
-		<p>Sincerely,</p>
-		<p>John Doe</p>
+		<h2>Dear GMR, </h2>
+
+        <div class="box box1">
+            <p>I am writing to express my strong interest in the Recruiter position at your company. </p>
+            <p>With over 10 years of experience in software development and CRM, I believe my skills and expertise will be a valuable asset to your team. </p>
+            <p>As a software developer in less than one year, I have gained a deep understanding of the importance of effective recruitment and hiring practices in building successful teams. </p>
+            <p>I collaborated with teams to streamline projects with people all over the world and the connections that I keep on developing ensure a diverse and talented pool of candidates.</p>
+            <p>My experience in CRM has also honed my communication and relationship-building skills, which I believe will be crucial in developing strong partnerships with candidates and hiring managers.</p>
+        </div>
+        <div class="box box2">
+            <p> In addition to my technical expertise and recruitment experience, I am also a strong communicator and team player. </p> 
+            <p>I thrive in collaborative environments and am committed to delivering high-quality work that meets the needs of the organization.</p>
+            <p> I am excited about the opportunity to apply my skills and experience to the Recruiter role at your company. </p>
+            <p> Thank you for considering my application. </p>
+            <p>Sincerely,</p>
+            <p>Michelle Caraballo</p>
+        </div>
+		
 	</main>
 </body>
 </html>
